@@ -1,12 +1,47 @@
+# General Python ignores
+*.py[cod]
+__pycache__/
+*.pyc
+
 # Virtual environment
 venv/
+*.venv
+env/
+
+# Jupyter notebooks
+.ipynb_checkpoints
 
 # Rasa specific
 models/
 *.db
-__pycache__/
+rasa_core.log
+rasa_core.lock
+events.db
+
+# Development tools like VSCode, PyCharm
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
 .env
 
-# Miscellaneous
-*.pyc
-.DS_Store
+# Colab Notebooks
+*.ipynb
+
+# Large data files and directories (consider using LFS for these)
+data/
+*.csv
+*.json
+
+# Ignore all markdown files except README.md
+*.md
+!README.md
