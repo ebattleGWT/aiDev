@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+
+# Rasa specific
+models/
+*.db
+__pycache__/
+.env
+
+# Miscellaneous
+*.pyc
+.DS_Store
